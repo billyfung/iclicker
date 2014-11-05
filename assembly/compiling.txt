@@ -1,0 +1,2 @@
+avr-gcc -mmcu=atmega8 -nostartfiles -nodefaultlibs iclicker-base.S -o iclicker.elf
+avr-objcopy -O binary iclicker.elf iclicker.bin
